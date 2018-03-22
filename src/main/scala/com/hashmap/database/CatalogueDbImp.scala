@@ -1,7 +1,7 @@
 package com.hashmap.database
 
-import com.hashmap.model.ItemStock
-import model.Item
+import com.hashmap.model.{Item, ItemStock}
+
 
 import scala.collection.mutable.ListBuffer
 
