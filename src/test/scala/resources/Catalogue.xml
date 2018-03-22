@@ -13,7 +13,7 @@
                 <currency>INR</currency> <!-- Currency alpha3code -->
             </unitPrice>
             <quantity>
-                <stock>50</stock>
+                <stock>0</stock>
                 <measure>units</measure><!-- measures could be unit, kg, gm etc.-->
             </quantity>
         </item>

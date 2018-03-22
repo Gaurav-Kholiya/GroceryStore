@@ -1,7 +1,7 @@
 package com.hashmap.dao
 
 
-import com.hashmap.database.CatalogueDbImp
+import com.hashmap.database.DbImp
 import com.hashmap.model.{Item, ItemStock}
 
 
@@ -12,18 +12,26 @@ class CatalogueDaoImp extends CatalogueDao {
 
 
   override def getItems: ListBuffer[Item] = {
-    CatalogueDbImp.getAllItems
+    DbImp.getAllItems
   }
   override def getItemStock: ListBuffer[ItemStock] ={
-    CatalogueDbImp.getAllItemsStock
+    DbImp.getAllItemsStock
   }
 
   override def addItem(item: Item): Unit ={
-    CatalogueDbImp.addToItems(item)
+    DbImp.addToItems(item)
   }
 
   override def addItemStock(itemStock: ItemStock): Unit={
-    CatalogueDbImp.addToItemsStock(itemStock)
+    DbImp.addToItemsStock(itemStock)
+  }
+
+  override def update(i: Int, item: Item): Unit = {
+    DbImp.updateItem(i,item)
+  }
+
+  override def updateStock(i: Int, itemStock: ItemStock): Unit = {
+    DbImp.updateItemStock(i,itemStock)
   }
 }
 

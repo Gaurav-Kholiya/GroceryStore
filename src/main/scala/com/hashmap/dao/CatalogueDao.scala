@@ -10,5 +10,7 @@ trait CatalogueDao {
   def getItemStock:ListBuffer[ItemStock]
   def addItem(item:Item):Unit
   def addItemStock(item:ItemStock):Unit
+  def update(i:Int,item: Item):Unit
+  def updateStock(i:Int,itemStock: ItemStock):Unit
 
 }
