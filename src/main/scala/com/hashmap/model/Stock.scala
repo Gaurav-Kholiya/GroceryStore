@@ -1,4 +1,3 @@
 package com.hashmap.model
 
-
-case class Stock(stock:Int, measure:String)
+case class Stock(item: Item,quantity:Int)
