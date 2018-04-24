@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalogue>
+    <items>
+        <item>
+            <id>101</id>
+            <name>LUX bath soap</name>
+            <size>
+            <uom>gm</uom> <!-- Unit Of Measure -->
+            <unitSize>20</unitSize>
+            </size>
+            <unitPrice>
+                <amount>12.00</amount>
+                <currency>INR</currency> <!-- Currency alpha3code -->
+            </unitPrice>
+            <quantity>
+                <stock>50</stock>
+                <measure>units</measure><!-- measures could be unit, kg, gm etc.-->
+            </quantity>
+        </item>
+        <item>
+            <id>106</id>
+            <name>Lays Chips</name>
+            <size>
+            <uom>gm</uom> <!-- Unit Of Measure -->
+            <unitSize>100</unitSize>
+            </size>
+            <unitPrice>
+                <amount>20.00</amount>
+                <currency>INR</currency> <!-- Currency alpha3code -->
+            </unitPrice>
+            <quantity>
+                <stock>30</stock>
+                <measure>units</measure><!-- measures could be unit, kg, gm etc.-->
+            </quantity>
+        </item>
+        <item>
+            <id>107</id>
+            <name>Nachos</name>
+            <size>
+                <uom>gm</uom> <!-- Unit Of Measure -->
+                <unitSize>80</unitSize>
+            </size>
+            <unitPrice>
+                <amount>20.00</amount>
+                <currency>INR</currency> <!-- Currency alpha3code -->
+            </unitPrice>
+            <quantity>
+                <stock>40</stock>
+                <measure>units</measure><!-- measures could be unit, kg, gm etc.-->
+            </quantity>
+        </item>
+    </items>
+</catalogue>
